@@ -16,7 +16,7 @@ export const Main = (props: MainProps) => {
   const { theme } = useTheme();
 
   return (
-    <div className={clsx("app", theme)}>
+    <div className={clsx("app", s.app, theme)}>
       <header className={s.header}>
         <div className={s.container}>
           <LogoIcon />

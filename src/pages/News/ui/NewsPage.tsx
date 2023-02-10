@@ -29,9 +29,10 @@ const initialValue: formData = {
     "Краткое и емкое описание новости. Если текст будет слишком длинный, то он может наехать на фон. Выровнять по верхнему краю можно, установив флаг 'Текст вверху'",
   title: "Заголовок новости",
   buttonText: "Текст кнопки",
-  textColor: "",
-  buttonColor: "",
-  buttonTextColor: "",
+  // TODO взять из темы цвета по дефолту
+  textColor: "#1A1A1A",
+  buttonColor: "#00AFB4",
+  buttonTextColor: "#F9F9F9",
   textUp: false,
   img: "",
 };

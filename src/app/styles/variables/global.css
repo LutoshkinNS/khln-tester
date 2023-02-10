@@ -1,5 +1,5 @@
 :root {
-    --font-famiy-main: GraphikLCG, 'Times New Roman', serif;
+    --font-famiy-main: GraphikLCG, serif;
 
     --font-size-m: 16px;
     --font-line-m: 1.25em;
@@ -11,5 +11,4 @@
 
     /* Размеры */
     --header-height: 60px;
-
 }

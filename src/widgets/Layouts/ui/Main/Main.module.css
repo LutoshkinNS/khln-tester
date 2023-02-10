@@ -1,3 +1,12 @@
+.app {
+    font: var(--font-m);
+
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+
+    min-height: 100vh;
+}
+
 .header {
     background: var(--bg-color-contrast);
 }
@@ -14,6 +23,6 @@
 }
 
 .main {
-    min-height: calc(99vh - var(--header-height));
+    /*min-height: calc(99vh - var(--header-height));*/
     padding: 0 20px;
 }
