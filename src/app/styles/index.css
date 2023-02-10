@@ -1,0 +1,18 @@
+@import "normalize.css";
+@import "app/styles/fonts.css";
+@import "app/styles/variables/global.css";
+@import "app/styles/themes/normal.css";
+@import "app/styles/themes/dark.css";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.app {
+    font: var(--font-m);
+
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+
+    min-height: 100vh;
+}

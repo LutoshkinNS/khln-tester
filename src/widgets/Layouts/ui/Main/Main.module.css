@@ -1,0 +1,19 @@
+.header {
+    background: var(--bg-color-contrast);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo svg g path {
+    fill: red;
+}
+
+.main {
+    min-height: calc(99vh - var(--header-height));
+    padding: 0 20px;
+}

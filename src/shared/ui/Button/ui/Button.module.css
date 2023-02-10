@@ -1,0 +1,14 @@
+.button {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border: none;
+    height: 65px;
+    border-radius: 7px;
+    /*FIXME in rem*/
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.fullWidth {
+    width: 100%;
+}

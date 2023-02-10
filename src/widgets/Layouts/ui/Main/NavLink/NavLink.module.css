@@ -1,0 +1,13 @@
+.NavLink {
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.NavLink:hover {
+    color: var(--primary-color-hover);
+}
+
+.active {
+    color: var(--primary-color);
+}

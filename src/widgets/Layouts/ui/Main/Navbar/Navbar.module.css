@@ -1,0 +1,7 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: var(--header-height);
+}

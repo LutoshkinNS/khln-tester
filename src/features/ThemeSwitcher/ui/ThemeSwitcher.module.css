@@ -1,0 +1,13 @@
+.ThemeSwitcher {
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img svg {
+    stroke: var(--primary-text-color);
+}

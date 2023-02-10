@@ -1,0 +1,28 @@
+.InputColor {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+    border: 1px solid var(--grey);
+    padding: 10px;
+    background: var(--bg-color-contrast);
+}
+
+.input:hover {
+    box-shadow: 0 0 3px var(--grey);
+    border: 1px solid var(--grey);
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 3px var(--primary-color);
+    border: 1px solid var(--primary-color);
+}

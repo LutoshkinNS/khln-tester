@@ -1,0 +1,12 @@
+.app.dark {
+    --bg-color: #1B2934;
+    --bg-color-contrast: #243645;
+    --grey: #243645;
+    --bg-modal: rgba(0, 0, 0, 0);
+
+    --primary-color: #00AFB4;
+    --primary-color-hover: #009ca3;
+
+    --primary-text-color: #F9F9F9;
+    --light-text-color: #F9F9F9;
+}

@@ -1,0 +1,31 @@
+.TextArea {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.textarea {
+    border-radius: 6px;
+    border: 1px solid var(--grey);
+    padding: 10px;
+    background: var(--bg-color-contrast);
+    color: var(--primary-text-color);
+}
+
+.textarea:hover {
+    box-shadow: 0 0 3px var(--grey);
+    border: 1px solid var(--grey);
+}
+
+.textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px var(--primary-color);
+    border: 1px solid var(--primary-color);
+}

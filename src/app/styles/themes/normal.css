@@ -1,0 +1,12 @@
+.app.light {
+    --bg-color: #ffff;
+    --bg-color-contrast: #ffff;
+    --grey: #c8c8c8;
+    --bg-modal: rgba(0, 0, 0, 0.1);
+
+    --primary-color: #00AFB4;
+    --primary-color-hover: #009ca3;
+
+    --primary-text-color: #1A1A1A;
+    --light-text-color: #F9F9F9;
+}
